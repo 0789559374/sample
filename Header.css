@@ -1,0 +1,166 @@
+.header{
+    
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto, Arial;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.left-section{
+    margin-right: 70px;
+    margin-left: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-section{
+    flex: 1;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.right-section{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+.humberger{
+    width: 24px;
+    cursor: pointer;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.youtube-logo{
+    width: 90px;
+    cursor: pointer;
+}
+.search-button{
+    height: 45px;
+    width: 60px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.voice-search{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-left: 24px;
+    border-radius: 40px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+.search-button{
+    background-color:rgb(192, 192, 192);
+}
+.search-button:active{
+    background-color:lightslategrey;
+}
+.Search-bar{
+    flex: 1;
+    height: 42px;
+    padding-left: 15px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.10);
+}
+.voice-search:hover{
+    background-color:rgb(192, 192, 192);
+}
+.voice-search:active{
+    background-color:lightslategrey;
+}
+
+.Search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+.Bar-button{
+    display: flex;
+    flex: 1;
+}
+.searching{
+    width: 20px;
+}
+.upload{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.upload:hover{
+    background-color: beige;
+}
+.upload:active{
+    background-color: grey;
+}
+.apps{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.apps:hover{
+    background-color:rgb(201, 194, 194);
+}
+.apps:active{
+    background-color: dimgrey;
+}
+.notifications{
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.notifications:hover{
+    background-color: darkgrey;
+}
+.notifications:active{
+    background-color: lightgoldenrodyellow;
+}
+.my-profile{
+    width: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.notify{
+    position: relative;
+}
+.notify-number{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(177, 19, 19);
+    position: absolute;
+    top: -1px;
+    right: 23px;
+    border-radius: 8px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
